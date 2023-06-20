@@ -1,0 +1,15 @@
+﻿@model List<youtube_tutorial.Models.CategoryModel>
+
+@{
+    foreach(var item in Model)
+    {
+        <h1>@item.Name</h1>
+        <h1>@item.Age</h1>
+        <h1>@item.Id</h1>
+         
+       
+    }
+
+
+}
+<img src="~/images/logo.jfif" height="200" width="200" alt="Alternate Key" asp-append-version="true">

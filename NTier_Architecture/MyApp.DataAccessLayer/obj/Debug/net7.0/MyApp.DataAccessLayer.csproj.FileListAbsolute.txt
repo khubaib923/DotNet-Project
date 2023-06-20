@@ -1,0 +1,15 @@
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\MyApp.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\MyApp.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\MyApp.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\MyApp.DataAccessLayer.AssemblyInfo.cs
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\MyApp.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\bin\Debug\net7.0\MyApp.DataAccessLayer.deps.json
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\bin\Debug\net7.0\MyApp.DataAccessLayer.dll
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\bin\Debug\net7.0\MyApp.DataAccessLayer.pdb
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\bin\Debug\net7.0\MyApp.Models.dll
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\bin\Debug\net7.0\MyApp.Models.pdb
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\MyApp.DataAccessLayer.csproj.CopyComplete
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\MyApp.DataAccessLayer.dll
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\refint\MyApp.DataAccessLayer.dll
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\MyApp.DataAccessLayer.pdb
+C:\Users\TECHNEZO\source\repos\NTier_Architecture\MyApp.DataAccessLayer\obj\Debug\net7.0\ref\MyApp.DataAccessLayer.dll

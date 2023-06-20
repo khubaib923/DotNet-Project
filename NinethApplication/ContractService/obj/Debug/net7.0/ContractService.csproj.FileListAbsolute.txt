@@ -1,0 +1,12 @@
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\bin\Debug\net7.0\ContractService.deps.json
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\bin\Debug\net7.0\ContractService.dll
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\bin\Debug\net7.0\ContractService.pdb
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\ContractService.csproj.AssemblyReference.cache
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\ContractService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\ContractService.AssemblyInfoInputs.cache
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\ContractService.AssemblyInfo.cs
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\ContractService.csproj.CoreCompileInputs.cache
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\ContractService.dll
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\refint\ContractService.dll
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\ContractService.pdb
+C:\Users\TECHNEZO\source\repos\NinethApplication\ContractService\obj\Debug\net7.0\ref\ContractService.dll

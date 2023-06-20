@@ -1,0 +1,29 @@
+﻿<h1>Home</h1>
+<button class="btn btn-primary" id="btn">Get Data</button>
+<div id="content"></div>
+@{
+    ListModel listModel = new ListModel()
+            {
+
+                ListTitle = "Countries",
+                ListItems = { "USA", "Pakistan", "India", "China" }
+            };
+   
+}
+<partial name="_ListPartial" model="listModel"></partial>
+
+<partial name="_ListPartial" model="listModel"/>
+
+
+<script>
+    var btn=document.getElementById("btn");
+    btn.addEventListener('click',async function(){
+        var response=await fetch("/data");
+        var content=await response.text();
+        document.getElementById("content").innerHTML=content;
+
+    });
+</script>
+
+
+

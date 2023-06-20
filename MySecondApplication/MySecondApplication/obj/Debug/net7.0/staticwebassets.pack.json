@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TECHNEZO\\source\\repos\\MySecondApplication\\MySecondApplication\\wwwroot\\Flutter.txt",
+      "PackagePath": "staticwebassets\\Flutter.txt"
+    },
+    {
+      "Id": "C:\\Users\\TECHNEZO\\source\\repos\\MySecondApplication\\MySecondApplication\\wwwroot\\khubaib.txt",
+      "PackagePath": "staticwebassets\\khubaib.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MySecondApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MySecondApplication.props",
+      "PackagePath": "build\\MySecondApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MySecondApplication.props",
+      "PackagePath": "buildMultiTargeting\\MySecondApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MySecondApplication.props",
+      "PackagePath": "buildTransitive\\MySecondApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

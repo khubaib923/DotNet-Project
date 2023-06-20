@@ -1,0 +1,41 @@
+﻿@using FifthApplication.Models
+@model ProductAndPersonWrapperModel
+
+<html>
+<head>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row p-3">
+            <table class="table table-bordered table-striped">
+                <thead class="text-center text-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Date Of Birth</th>
+                        <th>Gender</th>
+                        <th>Product Name</th>
+                        <th>Product ID</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <td>@Model.Person.Name</td>
+                        <td>@Model.Person.DateOfBirth?.ToString("dd/MM/yyyy")</td>
+                        <td>@Model.Person.MyGender</td>
+                        <td>@Model.Product.Name</td>
+                        <td>@Model.Product.ProductId</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="/">Back To Home</a>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

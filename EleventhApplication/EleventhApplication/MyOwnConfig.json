@@ -1,0 +1,9 @@
+{
+  "key": {
+    "MyClientKey": "Value is the my  key in config file",
+    "MyApiKey": "This is my Api key in config file"
+  }
+}
+
+
+//beacuse the first default application.json file load  then myownconfig.json file load that is why it override value

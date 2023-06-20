@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "youtube_tutorial/1.0.0": {
+        "runtime": {
+          "youtube_tutorial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "youtube_tutorial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

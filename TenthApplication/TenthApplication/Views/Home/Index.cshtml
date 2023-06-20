@@ -1,0 +1,21 @@
+﻿<div>
+    <div>@ViewBag.currentEnvironment</div>
+    <div>@ViewBag.isCheck</div>
+</div>
+
+<environment include="Development">
+    <button>Include</button>
+</environment>
+
+<environment exclude="Development">
+    <div>Exclude</div>
+</environment>
+
+
+@*agar hum isko production ya staging server pe le gae waaha visual studio naa hu tw hum powershell ke command s run karege by default 
+wo hamare launchsetting.json ko read krlenga likin agar hum gae tw read ni karega is k lie second command chalana hunga tw default prodution hunga
+
+dotnet run
+dotnet run --no-launch-profile*@
+@*$Env:ASPNETCORE_ENVIRONMENT="Develepmont"   set the environment through the powershell command*@
+

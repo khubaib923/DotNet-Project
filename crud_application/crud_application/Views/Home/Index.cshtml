@@ -1,0 +1,50 @@
+﻿@model Employee
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 mx-auto">
+            <form method="post" asp-controller="Home" asp-action="Index">
+
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" class="form-control" placeholder="Enter your name">
+                <br>
+                <label asp-for="Gender">Gender</label>
+                <select asp-for="Gender" class="form-control" asp-items="@Html.GetEnumSelectList<Gender>()">
+                    <option>Select Gender</option>
+                </select>
+                <br>
+                <label asp-for="Age">Age</label>
+                <input asp-for="Age" class="form-control" placeholder="Enter your age">
+                <br>
+                <label asp-for="Designation">Designation</label>
+                <input asp-for="Designation" class="form-control" placeholder="Enter your Designation">
+                <br>
+                <label asp-for="Salary">Salary</label>
+                <input asp-for="Salary" class="form-control" placeholder="Enter your Salary">
+                <br>
+                <label asp-for="Married">Married: </label>
+                <br>
+                <label>Yes</label>
+                <input type="radio"  asp-for="Married" value="Yes">
+                <label>No</label>
+                <input type="radio"  asp-for="Married" value="No">
+                <br><br>
+                <input type="submit" value="Submit" class="btn btn-primary col-12">
+
+
+
+
+
+
+
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+
+

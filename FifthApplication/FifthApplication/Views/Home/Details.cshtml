@@ -1,0 +1,38 @@
+﻿
+@model Person
+
+<html>
+    <head>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+        <div class="row p-3">
+            <table class="table table-bordered table-striped">
+                <thead class="text-center text-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Date Of Birth</th>
+                        <th>Gender</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <td>@Model.Name</td>
+                        <td>@Model.DateOfBirth?.ToString("dd/MM/yyyy")</td>
+                        <th>@Model.MyGender</th>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="/">Back To Home</a>
+           
+        </div>
+
+        </div>
+
+    
+    </body>
+</html>

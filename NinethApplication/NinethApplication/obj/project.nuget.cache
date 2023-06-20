@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gyBYCtQ1IOrDgn/+n4Tk3i3P7ZYrf6Vlr7MLXBXkbZCL2220C3B73IsaAELy2SYfBykU7U6ZxGn9hSLlRfQfUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TECHNEZO\\source\\repos\\NinethApplication\\NinethApplication\\NinethApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TECHNEZO\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
+    "C:\\Users\\TECHNEZO\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\TECHNEZO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\TECHNEZO\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

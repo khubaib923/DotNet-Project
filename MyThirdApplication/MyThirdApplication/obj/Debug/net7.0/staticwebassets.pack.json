@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TECHNEZO\\source\\repos\\MyThirdApplication\\MyThirdApplication\\wwwroot\\Flutter.txt",
+      "PackagePath": "staticwebassets\\Flutter.txt"
+    },
+    {
+      "Id": "C:\\Users\\TECHNEZO\\source\\repos\\MyThirdApplication\\MyThirdApplication\\wwwroot\\labtask.pdf",
+      "PackagePath": "staticwebassets\\labtask.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MyThirdApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MyThirdApplication.props",
+      "PackagePath": "build\\MyThirdApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MyThirdApplication.props",
+      "PackagePath": "buildMultiTargeting\\MyThirdApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MyThirdApplication.props",
+      "PackagePath": "buildTransitive\\MyThirdApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

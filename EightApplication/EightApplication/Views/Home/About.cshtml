@@ -1,0 +1,20 @@
+﻿<h2>About</h2>
+
+@*@await Component.InvokeAsync("Grid")*@
+
+
+<button class="btn btn-primary text-center" id="btn">GridData</button>
+<div id="render"></div>
+
+
+
+<script>
+    let btn=document.getElementById("btn");
+    btn.addEventListener('click',async function(){
+        let resposne=await fetch("/griddata");
+        let responsebody=await resposne.text();
+        document.getElementById("render").innerHTML = responsebody;
+
+
+    })
+</script>

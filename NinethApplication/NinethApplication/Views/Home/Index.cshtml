@@ -1,0 +1,31 @@
+﻿@model IEnumerable<string>
+@inject ICitiesService citiesservice
+@{
+    ViewBag.Title = "Home";
+}
+
+
+<div class="container">
+    <table class="table table-bordered table-striped">
+        <thead class="text-center">
+            <tr>
+                <th>Cities</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            @foreach(var city in citiesservice.GetCities())
+            {
+                <tr>
+                    <td>@city</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div>@ViewBag.Guid_1</div>
+    <div>@ViewBag.Guid_2</div>
+    <div>@ViewBag.Guid_3</div>
+    <div class="container">@ViewBag.ServiceInstance</div>
+    <div class="container">@citiesservice.ServiceInstance</div>
+    <div class="container">@ViewBag.lifescope</div>
+</div>

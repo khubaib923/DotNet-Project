@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="mywebroot\root.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="myroot\R%401n.txt" />
+    <Content Include="mywebroot\root.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Flutter.txt" />
+  </ItemGroup>
+
+</Project>

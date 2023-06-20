@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "LdTNZRFmpy2POm4tAX+K/5wis5FpZq9rVikaFjAuZTI=",
+  "Source": "MySecondApplication",
+  "BasePath": "_content/MySecondApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MySecondApplication\\wwwroot",
+      "Source": "MySecondApplication",
+      "ContentRoot": "C:\\Users\\TECHNEZO\\source\\repos\\MySecondApplication\\MySecondApplication\\wwwroot\\",
+      "BasePath": "_content/MySecondApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\TECHNEZO\\source\\repos\\MySecondApplication\\MySecondApplication\\wwwroot\\Flutter.txt",
+      "SourceId": "MySecondApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TECHNEZO\\source\\repos\\MySecondApplication\\MySecondApplication\\wwwroot\\",
+      "BasePath": "_content/MySecondApplication",
+      "RelativePath": "Flutter.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Flutter.txt"
+    },
+    {
+      "Identity": "C:\\Users\\TECHNEZO\\source\\repos\\MySecondApplication\\MySecondApplication\\wwwroot\\khubaib.txt",
+      "SourceId": "MySecondApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TECHNEZO\\source\\repos\\MySecondApplication\\MySecondApplication\\wwwroot\\",
+      "BasePath": "_content/MySecondApplication",
+      "RelativePath": "khubaib.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\khubaib.txt"
+    }
+  ]
+}

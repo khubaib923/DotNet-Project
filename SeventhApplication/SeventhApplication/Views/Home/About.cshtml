@@ -1,0 +1,14 @@
+﻿<h1>About</h1>
+@{
+    ViewData["list"] = "khubaib Irfan";
+    var myViewData = new ViewDataDictionary(ViewData);
+    myViewData["ListTitle"] = "List Of Countries";
+    myViewData["country"] = new List<string>() { "Pakistani", "India", "China", "Australia", "America" };
+}
+<partial name="_ListPartial" view-data="myViewData"/>
+@await Html.PartialAsync("_ListPartial",myViewData)
+@{
+    await Html.RenderPartialAsync("_ListPartial",myViewData);
+}
+
+<h3>Title is not changed in the view @myViewData["ListTitle"]</h3>

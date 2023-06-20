@@ -1,0 +1,28 @@
+﻿<h2>Index</h2>
+@{
+    PersonGrid grid = new PersonGrid()
+            {
+                GridTitle = "Person List",
+                Persons = new List<Person>()
+                {
+                    new Person() {JobTitle="Manager",PersonName="yasir"},
+                    new Person() {JobTitle="Ass.Manager",PersonName="nuhail"},
+                    new Person() {JobTitle="Director",PersonName="Qadir"},
+                }
+            };
+
+    PersonGrid grid2 = new PersonGrid()
+            {
+                GridTitle = "People List",
+                Persons = new List<Person>()
+                {
+                    new Person() {JobTitle="Student",PersonName="yasir"},
+                    new Person() {JobTitle="Monitor",PersonName="nuhail"},
+                    new Person() {JobTitle="Director",PersonName="Qadir"},
+                }
+            };
+}
+
+@await Component.InvokeAsync("Grid",new{personGrid=grid})
+
+<vc:grid person-grid="grid2"></vc:grid> 

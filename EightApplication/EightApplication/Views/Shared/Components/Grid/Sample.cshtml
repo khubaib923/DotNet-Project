@@ -1,0 +1,34 @@
+﻿@model PersonGrid
+<div class="container">
+    @*<h3>@ViewBag.grid.GridTitle</h3>*@
+    <h3>@Model.GridTitle</h3>
+    <table class="table table-bordered table-striped">
+        <thead class="text-center">
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            @*@foreach(Person person in ViewBag.grid.Persons)
+            {
+                <tr>
+                    <td>@person.JobTitle</td>
+                    <td>@person.PersonName</td>
+                </tr>
+                
+            }*@
+            @*Second Method*@
+            @foreach (Person person in Model.Persons)
+            {
+                <tr>
+                    <td>@person.JobTitle</td>
+                    <td>@person.PersonName</td>
+                </tr>
+
+            }
+         
+            
+        </tbody>
+    </table>
+</div>

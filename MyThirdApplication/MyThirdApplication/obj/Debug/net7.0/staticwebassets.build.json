@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "BSKCH/+Ex9KuRyqo2Dd61TnGNa0/yPmkyoWZ1lW57D4=",
+  "Source": "MyThirdApplication",
+  "BasePath": "_content/MyThirdApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyThirdApplication\\wwwroot",
+      "Source": "MyThirdApplication",
+      "ContentRoot": "C:\\Users\\TECHNEZO\\source\\repos\\MyThirdApplication\\MyThirdApplication\\wwwroot\\",
+      "BasePath": "_content/MyThirdApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\TECHNEZO\\source\\repos\\MyThirdApplication\\MyThirdApplication\\wwwroot\\Flutter.txt",
+      "SourceId": "MyThirdApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TECHNEZO\\source\\repos\\MyThirdApplication\\MyThirdApplication\\wwwroot\\",
+      "BasePath": "_content/MyThirdApplication",
+      "RelativePath": "Flutter.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Flutter.txt"
+    },
+    {
+      "Identity": "C:\\Users\\TECHNEZO\\source\\repos\\MyThirdApplication\\MyThirdApplication\\wwwroot\\labtask.pdf",
+      "SourceId": "MyThirdApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TECHNEZO\\source\\repos\\MyThirdApplication\\MyThirdApplication\\wwwroot\\",
+      "BasePath": "_content/MyThirdApplication",
+      "RelativePath": "labtask.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\labtask.pdf"
+    }
+  ]
+}

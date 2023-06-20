@@ -1,0 +1,32 @@
+﻿@*<a href="Index">Index Page 1</a>
+<br>
+<a asp-controller="Home" asp-action="Index">Index Page 2</a>
+<br>
+@Html.ActionLink("Index Page 3","Index")
+<br>
+<a href="@Url.Action("Index","Home")">Index Page 4</a>*@
+
+@*@Html.ActionLink("Index Page","Index","Home")
+<br>
+<a href="@Url.Action("Index","Home")">Index Page 2</a>
+<br>
+<a href="Index">Index Page 3   </a>*@
+
+<a href="FindAge/2">Details 1</a>
+<br>
+@Html.ActionLink("Details 2","FindAge","Home",new {age=2})
+<br>
+<a href="@Url.Action("FindAge","Home",new {age=2})">Details 3</a>
+<br>
+<a asp-action="FindAge" asp-controller="Home" asp-route-age="3">Details 4</a>
+
+
+
+<br><br>
+<a href="Contact">Go to Contact</a>
+<br><br>
+<a asp-action="Contact" asp-controller="Home">Go to Contact</a>
+<br><br>
+
+
+

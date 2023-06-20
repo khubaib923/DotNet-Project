@@ -1,0 +1,139 @@
+﻿
+@model IEnumerable<Person>
+@{
+    string name = "Altaf Bhai";
+
+    Person person = new Person()
+            {
+                Name = "Khubaib Irfan",
+                DateOfBirth = Convert.ToDateTime("2000-07-30"),
+                MyGender = null
+            };
+
+
+    //List<Person> personList = new List<Person>()
+    //{
+    //    new Person()
+    //    {
+    //        Name="Altaf",
+    //        DateOfBirth=Convert.ToDateTime("2004-09-23"),
+    //        MyGender=Gender.male
+    //    },
+    //     new Person()
+    //    {
+    //        Name="Hussain",
+    //        DateOfBirth=Convert.ToDateTime("2007-09-23"),
+    //        MyGender=Gender.female
+    //    },
+    //     new Person()
+    //    {
+    //        Name="Khubaib",
+    //        DateOfBirth=Convert.ToDateTime("2006-09-23"),
+    //        MyGender=Gender.other
+    //    }
+    //};
+}
+
+
+@functions{
+
+    double? GetAge(DateTime? DateOfBirth){
+        if (DateOfBirth.HasValue == false)
+        {
+            return null;
+        }
+        else
+        {
+            return Math.Round((DateTime.Now-DateOfBirth).Value.TotalDays/365.25);
+        }
+    }
+
+
+    //public int Id { get; set; } = 34;
+
+    //string Name = "Khubaib";
+
+   
+    string alertMessage = $"<script>alert('Hello World')</script>";
+    string htmlMessage = "<h1>Hello World</h1>";
+}
+
+
+
+
+
+
+
+<!Doctype Html>
+<html>
+<head>
+    @*<title>@name</title>*@
+    <title>@ViewBag.appTitle</title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    
+</head>
+<body>
+    
+    
+    <div>Hello @person.Name</div>
+    @*<div>@Html.Raw(alertMessage)</div>
+    <div>@Html.Raw(htmlMessage)</div>*@
+    
+   
+    @{
+        if (person.DateOfBirth.HasValue == true)
+        {
+            double year = Math.Round((DateTime.Now - person.DateOfBirth).Value.TotalDays / 365.25);
+            <span>My year is @year</span>
+        }
+
+        else
+        {
+            <h2>My year is unknown</h2>
+        }
+
+    }
+
+    @switch(person.MyGender)
+    {
+        case Gender.male:
+            <h1>Gender is male</h1>
+            break;
+        case Gender.female:
+            <h1>Gender is female</h1>
+            break;
+        case Gender.other:
+            <h1>Gender is Other</h1>
+            break;
+        default:
+            <h2>Something went wrong</h2>
+            break;
+    }
+
+
+    @foreach(Person personObj in Model)
+    {
+       @* @:Hello   //Literal Text*@
+        @*<text>Khubaib</text>*@
+        <div>@personObj.Name</div>
+        <span>The age is:@GetAge(personObj.DateOfBirth)</span>
+        <a href="/personDetails/@personObj.Name">Details</a>
+       @* <span>@Id</span>*@
+    }
+
+    @for(int i = 0; i < 2; i++)
+    {
+        Person p = ((List<Person>)ViewData["person"]!)[i];
+        <div>@p.DateOfBirth!.Value.ToString("dd/MM/yyyy")</div>
+    }
+
+
+
+
+
+    
+</body>
+</html>

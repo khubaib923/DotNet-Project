@@ -1,0 +1,118 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <form method="post">
+                <div class="form-label">
+                    <label>Country</label>
+                    <select class="form-select" id="country">
+                        <option>--Select Country--</option>
+                    </select>
+                </div>
+                <div class="form-label">
+                    <label>City</label>
+                    <select class="form-select" id="city">
+                        <option>--Select City--</option>
+                    </select>
+                </div>
+                <div class="form-label">
+                    <label>Area</label>
+                    <select class="form-select" id="area">
+                        <option>--Select Area--</option>
+                    </select>
+                </div>
+               <div class="form-label">
+                    <input type="submit" class="btn btn-primary float-end" value="Submit" id="submit">
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+
+@section Scripts{
+
+    <script>
+        $(document).ready(function () {
+            $("#city").attr("disabled", true);
+            $("#area").attr("disabled", true);
+            GetAllCountry();
+            $("#country").on('change', function () {
+            $("#city").attr("disabled", false);
+            var value = $(this).val();
+            $("#city").empty();
+            $("#area").empty();
+            $("#city").append('<option>--Select City--</option>');
+            $("#area").append('<option>--Select Area--</option>');
+
+                GetAllCityWithIdWise(value);
+            });
+            $("#city").on('change', function () {
+                $("#area").attr("disabled", false);
+                var id = $(this).val();
+                $("#area").empty();
+                $("#area").append('<option>--Select Area--</option>');
+                GetAllAreaWithIdWise(id);
+            })
+        })
+
+        function GetAllCityWithIdWise(id) {
+            $.ajax({
+                url: '/Cascading/GetAllCities?id=' + id,
+                type: 'Get',
+                dataType: 'Json',
+                contentType: 'application/json',
+                success: function (result) {
+                    $.each(result, function (index, data) {
+                        $("#city").append('<option value=' + data.id + '>' + data.name + '</option>');
+                    })
+                },
+                error: function () {
+                    alert("Something went wrong");
+                }
+            })
+        }
+
+
+        function GetAllCountry() {
+            $.ajax({
+                url: '/Cascading/GetAllCountries',
+                type: 'Get',
+                dataType: 'Json',
+                contentType: 'application/json',
+                success: function (result) {
+                    $.each(result, function (index, data) {
+                        $("#country").append('<option value =' + data.id + '>' + data.name + '</option>');
+                    });
+
+
+                },
+                error: function () {
+                    alert("Something went wrong");
+                }
+
+
+            })
+        }
+
+
+        function GetAllAreaWithIdWise(id) {
+            $.ajax({
+
+                url: '/Cascading/GetAllAreas?id=' + id,
+                type: 'Get',
+                dataType: 'Json',
+                contentType: 'application/json',
+                success: function (result) {
+                    $.each(result, function (index, data) {
+                        $("#area").append('<option value=' + data.id + '>' + data.name + '</option>');
+                    })
+                }
+
+
+            })
+        }
+    </script>
+
+}
